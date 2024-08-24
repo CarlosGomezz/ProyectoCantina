@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Administrador"
+AuthUserFile   
+Require valid-user

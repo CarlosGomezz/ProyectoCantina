@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css";
+
+*{
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    margin-left: 50rem;
+}
+
+.titolPrincipal{
+    font-family:Montserrat;
+    font-size: 25px;
+    margin-right: 54rem;
+    float: center;
+}
+
+.header{
+    background-color:#DDD5D3;
+}
+
+.footer{
+    background-color: #DDD5D3;
+}
+
+/* ------------------- ESTILOS DE INDEX.PHP ------------------*/
+.imatgeInstitut{
+    margin-left: 25rem;
+    height: 600px;
+    width: 650px;
+}
+
+.informacioIndex{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+/* .informacioCantina{
+    text-indent: 20px;
+} */
+
+.botonsIndex{
+    margin-left: 45rem;
+}
+
+.is-informacio-cantina {
+    margin: auto;
+    width: 60%;
+}
+
+/* ------------------- ESTILOS DE MENU.PHP ------------------*/
+.principal {
+    display: flex;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    /*margin-right: 30px;*/
+    padding: 3rem;
+}
+
+.mostrarMenu {
+    display: flex;  
+    flex: 50%;
+    padding: 5px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+  
+    
+}
+
+.mostrarLlistatProductes {
+    flex: 50%;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 300px;
+    width: 300px;
+   
+    
+}
+
+#llistatProductes {
+    flex: 50%;
+    /*border: 1px solid;*/
+    padding: 5px;
+    
+}
+
+#preuFinalCompra {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+/* ------------------- ESTILOS DE MENU.PHP ------------------*/
+
+#llistatProductes2 {
+    flex: 50%;
+    border: 1px solid green;
+    padding: 5px
+}
+
+.resumCompra {
+    flex: 50%;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+    border: 1px solid #ccc;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.botoEnrere {
+    margin: auto;
+    width: 50%;
+    padding-left: 250px;
+}
+
+#registreUsuari {
+    margin-right: 3rem;
+    box-sizing: border-box;
+
+}
+
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    background-color: azure;
+    text-decoration: underline;
+}
+a:visited{
+    color: #3E87DE;
+}
+
+.fieldset{
+    background-color: #E2E6EA;
+    border-radius: 6px;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+    color: #4a4a4a;
+    display: block;
+    padding: 0.80rem;
+    width: 700px;
+    border: 1px solid #ccc
+ }
+ .fieldset  > legend{
+    color: #363636;
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #fff;
+    padding: 5px;
+    width: max-content;
+    border: 0 none
+ }
+
+
+/** -- ESTILOS -- */
+#llistatProductes {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px; 
+}
+
+.imgProducte {
+    width: 150px;
+    height: 100px;
+}
+
+.inputNumProductes{
+    width: 50px;
+}
+
+.headerProducte {
+    display: flex;
+    align-items:center;
+}
+
+.nomProducte {
+    margin-bottom: 50px;
+    margin-left: 10px;
+    font-family: 'Lobster', cursive;
+}
+
+.preuInput {
+    margin-top: 50px;
+    margin-left: -100px;
+    display:flex;
+}
+
+.preuProducte {
+    margin-left: 10px; 
+
+    margin-right: 10px; 
+}
+
+.producte {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.finalitzacioCompra{
+    text-align: center;
+}
+
+.pantallaAdministracio{
+    padding: 3rem;
+}
+
+.b-checkbox.checkbox input[type=checkbox]:checked + .check.is-success {
+  background: #48c78e url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Cpath style='fill:%23fff' d='M 0.04038059,0.6267767 0.14644661,0.52071068 0.42928932,0.80355339 0.3232233,0.90961941 z M 0.21715729,0.80355339 0.85355339,0.16715729 0.95961941,0.2732233 0.3232233,0.90961941 z'%3E%3C/path%3E%3C/svg%3E") no-repeat center center;
+  border-color: #48c78e;
+}
+
+.table td{
+    letter-spacing: 2px;
+}
+
+
+.restarProducte{
+    background-color: rgb(190, 36, 36);
+    border-color: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-overflow: ellipsis;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 15px;
+    line-height: 0px; 
+    box-sizing: border-box;
+
+}
+
+
+.afegirProducte{
+    background-color: #04AA6D;
+    border-color: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-overflow: ellipsis;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 15px;
+    line-height: 0px; 
+    box-sizing: border-box;
+}
+
+.botonComprar{
+    text-align: center;
+    margin-top: 20px;
+    padding: 4.50px;
+}
+
+.infoError{
+    text-align:center;
+}
+
+.titolTicket {
+    text-align: center;
+}
